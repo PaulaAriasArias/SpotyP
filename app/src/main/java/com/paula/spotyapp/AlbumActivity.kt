@@ -29,6 +29,7 @@ class AlbumActivity : AppCompatActivity(), ListenerAlbum {
             createThreadToGetAlbums()
         }else
         {
+
             AlertDialog.Builder(this)
                 .setTitle("Error")
                 .setMessage(R.string.error_internet)
